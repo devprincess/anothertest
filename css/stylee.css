@@ -1,0 +1,14 @@
+
+.row{
+    justify-content: center;
+    padding-top: 100px;
+}
+.row2{
+    text-align:center;
+}
+
+.col-4{
+    background-color: rgb(245, 220, 224);
+    border: 2px solid black;
+}
+

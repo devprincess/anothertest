@@ -1,0 +1,7 @@
+.text-light:hover, .pink-bird {
+    color: pink !important;
+}
+
+.d-flex{
+    height: 100vh;
+}

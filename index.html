@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Using Bootstrap</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+ 
+    <div class="d-flex justify-content-between">
+        <a class="navbar-brand" href="#">
+            <img src="./img/pngegg.png" alt="Bootstrap" width="100">
+          </a>
+        <div class="d-flex p-2">
+            <a href="login.html" class="p-2 text-decoration-none"><b>Login</b></a>
+            <a href="register.html" class="p-2 text-decoration-none"><b>Register</b></a>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid justify-content-end">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold"  href="#">Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#">Cart</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold " href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <img src="./img/goodimagebackground.jpg" class="img-fluid" alt="">
+
+      <div class="container-fluid">
+        <div class="row">
+          <aside class="col-sm-3">
+            <div class="mt-3 border p-2 bg-gradient">
+                <p class="h5 m-3">Thrift Categories</p>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <div class="list-group list-group-flush">
+                    <a href="#" class="list-group-item list-group-item-action">Grade 1</a>
+                    <a href="#" class="list-group-item list-group-item-action">Grade 2</a>
+                    <a href="#" class="list-group-item list-group-item-action">Male Clothes</a>
+                    <a href="#" class="list-group-item list-group-item-action">Female Clothes</a>
+                    <a href="#" class="list-group-item list-group-item-action">Bages</a>
+                    <a href="#" class="list-group-item list-group-item-action">Shoes</a>
+                    <a href="#" class="list-group-item list-group-item-action">Caps</a>
+                    <a href="#" class="list-group-item list-group-item-action">Underwears</a>
+                    <a href="#" class="list-group-item list-group-item-action">Sun glasses</a>
+                  </div>
+            </div>
+          </aside>
+          <main class="col-sm-9">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-3 p-2">
+                        <div class="card text-center shadow-sm">
+                            <img src="./img/imagesofcartfolder/bag.jpg" class="card-img-top" alt="Cart Item">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Bag1</h5>
+                              <a href="#" class="btn btn-primary ">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 p-2">
+                        <div class="card text-center shadow-sm">
+                            <img src="./img/imagesofcartfolder/man shoe 1.jpg" class="card-img-top" alt="Cart Item">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Shoe</h5>
+                              <a href="#" class="btn btn-primary ">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 p-2">
+                        <div class="card text-center shadow-sm">
+                            <img src="./img/imagesofcartfolder/red bag.jpg" class="card-img-top" alt="Cart Item">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Bag2</h5>
+                              <a href="#" class="btn btn-primary ">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 p-2">
+                        <div class="card text-center shadow-sm">
+                            <img src="./img/imagesofcartfolder/cloth2jpg.jpg" class="card-img-top" alt="Cart Item">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Wear1</h5>
+                              <a href="#" class="btn btn-primary ">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-3 p-2">
+                        <div class="card text-center shadow-sm">
+                            <img src="./img/imagesofcartfolder/cloth3.jpg" class="card-img-top" alt="Cart Item">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">wear2</h5>
+                              <a href="#" class="btn btn-primary ">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-sm-6 col-md-4 col-lg-3 p-2">
+                        <div class="card text-center shadow-sm">
+                            <img src="./img/imagesofcartfolder/cloth1jpg.jpg" class="card-img-top" alt="Cart Item">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">wear3</h5>
+                              <a href="#" class="btn btn-primary ">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-sm-6 col-md-4 col-lg-3 p-2">
+                        <div class="card text-center shadow-sm">
+                            <img src="./img/imagesofcartfolder/shirtjpeg.jpeg" class="card-img-top" alt="Cart Item">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Shirt1</h5>
+                              <a href="#" class="btn btn-primary ">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-6 col-md-4 col-lg-3 p-2">
+                        <div class="card text-center shadow-sm">
+                            <img src="./img/imagesofcartfolder/shoe 2jpg.jpg" class="card-img-top" alt="Cart Item">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Shoe1</h5>
+                              <a href="#" class="btn btn-primary ">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-6 col-md-4 col-lg-3 p-2">
+                        <div class="card text-center shadow-sm">
+                            <img src="./img/imagesofcartfolder/man shoe 1.jpg" class="card-img-top" alt="Cart Item">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Shoe2</h5>
+                              <a href="#" class="btn btn-primary ">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-sm-6 col-md-4 col-lg-3 p-2">
+                        <div class="card text-center shadow-sm">
+                            <img src="./img/imagesofcartfolder/shirt 8 jpg.webp" class="card-img-top" alt="Cart Item">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Shirt2</h5>
+                              <a href="#" class="btn btn-primary ">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-6 col-md-4 col-lg-3 p-2">
+                        <div class="card text-center shadow-sm">
+                            <img src="./img/imagesofcartfolder/bag 2jpg.jpg" class="card-img-top" alt="Cart Item">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Bag3</h5>
+                              <a href="#" class="btn btn-primary ">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-sm-6 col-md-4 col-lg-3 p-2">
+                        <div class="card text-center shadow-sm">
+                            <img src="./img/imagesofcartfolder/shirt 4.jpeg" class="card-img-top" alt="Cart Item">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">shirt3</h5>
+                              <a href="#" class="btn btn-primary ">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        </div>
+      </div>
+      <footer class="d-flex justify-content-between text-white bg-black">
+        <a class="navbar-brand p-3" href="#" >Copyright &copy; 2023</a>
+        <a class="navbar-brand p-3" href="#" >Built by Princess</a>
+      </footer>
+
+
+    <!-- <script src="js/bootstrap.bundle.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
