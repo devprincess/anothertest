@@ -6,14 +6,15 @@
     <title> form</title>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/forms.css" rel="stylesheet">
+    <link href="./all.min.css" rel="stylesheet">
 </head>  
 
 <body>
     <div class="container-fluid">
     <div class="d-flex justify-content-center">
         <div class="text-bg-secondary p-5 col-sm-12 col-md-6 col-lg-4 align-self-center rounded-3 shadow">
-            <h3 class="text-center fw-bold pink-bird">PINKBIRD USER LOGIN</h3>
-            <form>
+            <h3 class="text-center nfw-bold pink-bird">PINKBIRD USER LOGIN</h3>
+            <form id="form">
                 <div class="mb-3">
                   <label for="username" class="form-label">UserName</label>
                   <input type="text" class="form-control" id="username">
@@ -21,7 +22,12 @@
                 </div>
                 <div class="mb-2">
                   <label for="password" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="password">
+                  <div class="input-group mb-3">
+                    <input type="password" class="form-control" placeholder="Enter password" aria-label="Enter password" aria-describedby="basic-addon2" id="password">
+                    <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-eye" id="passwordeye"></i></span>
+                  </div>
+
+
                 </div>
                 <div class="mb-3 text-end">
                    <a class="text-decoration-none text-light" href="#">Forgot password?</a> 
@@ -40,7 +46,15 @@
             </div>
       </div>
       </div>
-
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
